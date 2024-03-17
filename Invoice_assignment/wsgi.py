@@ -1,5 +1,5 @@
 """
-WSGI config for Invoice_assignment project.
+WSGI config for invoice_assignment project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Invoice_assignment.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'invoice_assignment.settings')
 
 application = get_wsgi_application()

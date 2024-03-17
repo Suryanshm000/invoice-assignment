@@ -1,5 +1,5 @@
 """
-ASGI config for Invoice_assignment project.
+ASGI config for invoice_assignment project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Invoice_assignment.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'invoice_assignment.settings')
 
 application = get_asgi_application()
