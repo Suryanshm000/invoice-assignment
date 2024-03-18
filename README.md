@@ -100,7 +100,6 @@ The *django api server* is started via the following command.
 python manage.py runserver
 ```
 
-<br>
 
 # Command to run the test suite
 ```
